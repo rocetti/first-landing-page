@@ -184,7 +184,7 @@
     background-color: #3882F6;
     border-radius: 5px;
     max-width: 1000px;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 .action .txt{
     padding: 25px;
@@ -215,3 +215,19 @@
     color: #3882F6;
 }
 /* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #c6c7ca;    
+    margin-top: 75px;
+}
+
+.footer .content {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 50px;
+}
