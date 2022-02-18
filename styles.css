@@ -54,7 +54,7 @@
 }
 
 /* HERO */
-.header .hero {
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,22 +62,22 @@
     margin-bottom: 50px;
 }
 
-.header .hero .txt  {
+.hero .txt  {
     max-width: 500px;
 }
 
-.header .hero .txt h1  {
+.hero .txt h1  {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.header .hero .txt p  {
+.hero .txt p  {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header .hero .txt button  {
+.hero .txt button  {
     background-color: #3882F6;
     border-radius: 5px;
     padding: 10px 30px;
@@ -86,16 +86,87 @@
     color: #E5E7EB;
 }
 
-.header .hero .txt button:hover{
+.hero .txt button:hover{
     color: white;
 }
 
-.header .hero .txt button:active{
+.hero .txt button:active{
     background-color: #E5E7EB;
     color: #1F2937;
 }
 
-.header .hero img {
+.hero img {
     min-width: 0px;
     max-width: 500px;
 }
+
+/* BODY */
+/* INFOS */
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body .content{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.body .content h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 25px;
+}
+
+.body .content img {
+    min-width: 0px;
+    max-width: 150px;
+}
+
+.body .content .infos {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.body .content .infos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body .content .infos p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 160px;
+    color: #1F2937;
+    margin-top: 10px;
+}
+/* DEPO */
+.depo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    min-height: 200px;
+    min-width: 100%;
+    margin-top: 75px;
+}
+.depo .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 600px;
+}
+/* ACTION */
+/* FOOTER */
